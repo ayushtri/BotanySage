@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BotanySage</string>
+    <string name="about_us">About us</string>
+    <string name="view_post"><u>View Post</u></string>
+    <string name="posted_by">Posted by</string>
+    <string name="title">Title</string>
+    <string name="refresh">Refresh</string>
+</resources>
