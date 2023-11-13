@@ -29,14 +29,16 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center">
                 <Button
+                    android:id="@+id/flowerBtn"
                     android:layout_width="150sp"
                     android:layout_height="wrap_content"
-                    android:text="Pick From Gallery"
+                    android:text="Flower Identification"
                     android:layout_margin="10sp"/>
                 <Button
+                    android:id="@+id/fruVegBtn"
                     android:layout_width="150sp"
                     android:layout_height="wrap_content"
-                    android:text="Scan from Camera"
+                    android:text="FruVeg Identifcation"
                     android:layout_margin="10sp"/>
             </LinearLayout>
             <LinearLayout

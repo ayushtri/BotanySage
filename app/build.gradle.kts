@@ -1,5 +1,6 @@
 plugins {
     id("com.android.application")
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -42,6 +43,13 @@ dependencies {
 
     //volley
     implementation("com.android.volley:volley:1.2.1")
+
+    //custom image labeling
+    implementation ("com.google.mlkit:image-labeling-custom:17.0.2")
+
+    //firebase
+    implementation(platform("com.google.firebase:firebase-bom:32.5.0"))
+    implementation ("com.google.mlkit:linkfirebase:17.0.0")
 
 
     testImplementation("junit:junit:4.13.2")

@@ -58,7 +58,7 @@ public class RedditLoaderActivity extends AppCompatActivity {
                     @Override
                     public void onErrorResponse(VolleyError error) {
                         // TODO: Handle error
-                        Toast.makeText(RedditLoaderActivity.this, "ummm", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(RedditLoaderActivity.this, "Try again later", Toast.LENGTH_SHORT).show();
                     }
                 });
         queue.add(jsonObjectRequest);

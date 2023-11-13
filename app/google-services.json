@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "904127427253",
+    "project_id": "botanysage",
+    "storage_bucket": "botanysage.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904127427253:android:e418a66adb46bc7a8144fc",
+        "android_client_info": {
+          "package_name": "com.celes.botanysage"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCy-rIAvDiIfX7bx5XGCHcD4s3TrUlyoX0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

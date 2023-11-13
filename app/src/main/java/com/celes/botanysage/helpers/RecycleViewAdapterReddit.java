@@ -1,5 +1,6 @@
 package com.celes.botanysage.helpers;
 
+import android.app.Dialog;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
@@ -35,7 +36,9 @@ public class RecycleViewAdapterReddit extends RecyclerView.Adapter<RecycleViewAd
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-        Glide.with(context).load(redditPosts.get(position).imgUrl).error(R.drawable.ic_launcher_background).into(holder.redImgView);
+
+        Glide.with(context).load(redditPosts.get(position).imgUrl)
+                .error(R.drawable.cant_load).into(holder.redImgView);
         holder.redTitle.setText(redditPosts.get(position).title);
         holder.redUser.setText(redditPosts.get(position).user);
         String pUrl = redditPosts.get(position).postUrl;

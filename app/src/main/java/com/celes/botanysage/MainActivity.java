@@ -12,12 +12,15 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.celes.botanysage.mlModelClasses.FlowerModel;
+import com.celes.botanysage.mlModelClasses.FruitVegModel;
 import com.celes.botanysage.redditSubs.BotanyMemes;
 import com.celes.botanysage.redditSubs.BotanyNormal;
 
 
 public class MainActivity extends AppCompatActivity {
     Button postBtn, memeBtn;
+    Button floBtn, fruVegBtn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,6 +30,10 @@ public class MainActivity extends AppCompatActivity {
 
         postBtn = findViewById(R.id.postsBtn);
         memeBtn = findViewById(R.id.memesBtn);
+
+        floBtn = findViewById(R.id.flowerBtn);
+        fruVegBtn = findViewById(R.id.fruVegBtn);
+
 
         postBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -40,6 +47,22 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, BotanyMemes.class);
+                startActivity(intent);
+            }
+        });
+
+        floBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, FlowerModel.class);
+                startActivity(intent);
+            }
+        });
+
+        fruVegBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, FruitVegModel.class);
                 startActivity(intent);
             }
         });
