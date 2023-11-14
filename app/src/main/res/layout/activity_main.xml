@@ -31,12 +31,14 @@
                 <Button
                     android:id="@+id/flowerBtn"
                     android:layout_width="150sp"
+                    android:textColor="#ffffff"
                     android:layout_height="wrap_content"
                     android:text="Flower Identification"
                     android:layout_margin="10sp"/>
                 <Button
                     android:id="@+id/fruVegBtn"
                     android:layout_width="150sp"
+                    android:textColor="#ffffff"
                     android:layout_height="wrap_content"
                     android:text="FruVeg Identifcation"
                     android:layout_margin="10sp"/>
@@ -49,12 +51,14 @@
                     android:id="@+id/postsBtn"
                     android:layout_width="150sp"
                     android:layout_height="wrap_content"
+                    android:textColor="#ffffff"
                     android:text="Botany Posts"
                     android:layout_margin="10sp"/>
                 <Button
                     android:id="@+id/memesBtn"
                     android:layout_width="150sp"
                     android:layout_height="wrap_content"
+                    android:textColor="#ffffff"
                     android:text="Botany Memes"
                     android:layout_margin="10sp"/>
             </LinearLayout>
