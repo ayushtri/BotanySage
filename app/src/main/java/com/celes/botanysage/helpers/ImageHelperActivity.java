@@ -96,7 +96,7 @@ public class ImageHelperActivity extends AppCompatActivity {
                     public void onActivityResult(ActivityResult result) {
                         try{
                             Bitmap bitmap = BitmapFactory.decodeFile(photoFile.getAbsolutePath());
-                            Glide.with(ImageHelperActivity.this).load(bitmap).error(R.drawable.ic_launcher_background)
+                            Glide.with(ImageHelperActivity.this).load(bitmap).error(R.drawable.img_holder)
                                     .into(inputImageView);
                             runClassification(bitmap);
                         }
