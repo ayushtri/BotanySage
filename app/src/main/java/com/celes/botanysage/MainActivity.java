@@ -21,6 +21,7 @@ import com.celes.botanysage.redditSubs.BotanyNormal;
 public class MainActivity extends AppCompatActivity {
     Button postBtn, memeBtn;
     Button floBtn, fruVegBtn;
+    //git check
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
